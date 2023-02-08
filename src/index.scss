@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-400;
+}
+
+nav ul li a {
+	@apply hover:bg-gray-900 py-3 px-4;
+}
+
+nav a.active {
+	@apply bg-gray-900 text-white;
+}
