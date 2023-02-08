@@ -6,8 +6,9 @@ This project is like a last minute quick reference guide for understanding react
 
 1. React Context
 2. Redux Toolkit
-3. React Performance Optimizing techniques
-4. Testing with Jest
+3. React Suspense
+4. React Performance Optimizing techniques
+5. Testing with Jest
 
 ### Project Setup
 
