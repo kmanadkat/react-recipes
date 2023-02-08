@@ -18,6 +18,9 @@ const Navbar = () => {
 							<NavLink to='/context'>Context</NavLink>
 						</li>
 						<li>
+							<NavLink to='/suspense'>Suspense</NavLink>
+						</li>
+						<li>
 							<NavLink to='/performance'>Performance</NavLink>
 						</li>
 						<li>

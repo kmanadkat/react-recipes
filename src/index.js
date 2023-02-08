@@ -10,6 +10,7 @@ import AppForRedux from './AppForRedux';
 import AppForTesting from './AppForTesting';
 import NotFound from './NotFound';
 import './index.scss';
+import AppForSuspense from './AppForSuspense';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path='/' element={<Home />} />
         <Route path='/redux' element={<AppForRedux />} />
         <Route path='/context' element={<AppForContext />} />
+        <Route path='/suspense' element={<AppForSuspense />} />
         <Route path='/performance' element={<AppForPerformance />} />
         <Route path='/testing' element={<AppForTesting />} />
         <Route path="*" element={<NotFound />} />

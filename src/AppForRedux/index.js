@@ -5,7 +5,7 @@ import App from './App'
 import store from './redux/store'
 
 
-const AppForReduxRoot = () => {
+const AppForRedux = () => {
   return (
     <Provider store={store}>
       <App />
@@ -13,4 +13,4 @@ const AppForReduxRoot = () => {
   )
 }
 
-export default AppForReduxRoot
+export default AppForRedux
