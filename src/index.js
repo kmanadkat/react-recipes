@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Navbar />
-    <main className='mt-12 max-w-7xl mx-auto'>
+    <main className='mt-12 max-w-[84rem] mx-auto px-4'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/redux' element={<AppForRedux />} />

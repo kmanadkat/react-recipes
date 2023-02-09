@@ -5,7 +5,7 @@ const Navbar = () => {
 	return (
 		<header>
 			<nav className='bg-gray-800 py-6 text-gray-400'>
-				<div className='max-w-7xl flex mx-auto items-center'>
+				<div className='max-w-[84rem] flex mx-auto items-center px-4'>
 					<Link to='/' className='navbrand text-gray-200 font-mono'>
 						React Recipes
 					</Link>

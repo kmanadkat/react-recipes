@@ -7,9 +7,11 @@ import store from './redux/store'
 
 const AppForRedux = () => {
   return (
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <React.StrictMode>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </React.StrictMode>
   )
 }
 
