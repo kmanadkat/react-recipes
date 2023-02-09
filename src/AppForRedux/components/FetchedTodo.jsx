@@ -1,11 +1,10 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { selectFetchedTodo } from '../redux/featureTodo/selectors'
 import { add } from '../redux/featureTodo/slice'
 
-const FetchedTodo = () => {
+const FetchedTodo = ({ dispatch }) => {
 	const singleTodo = useSelector(selectFetchedTodo)
-	const dispatch = useDispatch()
 
 	const handleAddToStore = () => {
 		dispatch(add())

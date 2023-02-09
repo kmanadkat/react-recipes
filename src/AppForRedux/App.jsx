@@ -9,7 +9,7 @@ const App = () => {
 	return (
 		<div>
 			<section className='flex items-start gap-20'>
-				<TodoInput />
+				<TodoInput dispatch={dispatch} />
 				<FetchedTodo dispatch={dispatch} />
 			</section>
 			<TodosList />

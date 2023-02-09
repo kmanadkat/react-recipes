@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux'
 import { fetchTodo } from '../redux/featureTodo/service'
 
-const TodoInput = () => {
+const TodoInput = ({ dispatch }) => {
 	const [todoIdInput, setTodoIdInput] = useState('')
-	const dispatch = useDispatch()
 
 	const handleChange = (event) => {
 		const id = event.target.value
