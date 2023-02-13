@@ -10,7 +10,7 @@ const TodosList = () => {
 	const allTodos = useSelector(selectAllTodos)
 	return (
 		<ul className='mt-12'>
-			<Suspense fallback={<p>Loading...</p>}>
+			<Suspense fallback={<p>Lazy Loading...</p>}>
 				{allTodos.todos.map((todo) => (
 					<TodoItem key={todo.id} todo={todo} />
 				))}
