@@ -18,13 +18,13 @@ root.render(
     <Navbar />
     <main className='mt-12 max-w-[84rem] mx-auto px-4'>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/redux' element={<AppForRedux />} />
-        <Route path='/context' element={<AppForContext />} />
-        <Route path='/suspense' element={<AppForSuspense />} />
-        <Route path='/performance' element={<AppForPerformance />} />
-        <Route path='/testing' element={<AppForTesting />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path='/react-recipes/' element={<Home />} />
+        <Route path='/react-recipes/redux' element={<AppForRedux />} />
+        <Route path='/react-recipes/context' element={<AppForContext />} />
+        <Route path='/react-recipes/suspense' element={<AppForSuspense />} />
+        <Route path='/react-recipes/performance' element={<AppForPerformance />} />
+        <Route path='/react-recipes/testing' element={<AppForTesting />} />
+        <Route path="/react-recipes/*" element={<NotFound />} />
       </Routes>
     </main>
   </BrowserRouter>

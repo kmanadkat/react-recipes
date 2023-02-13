@@ -6,25 +6,28 @@ const Navbar = () => {
 		<header>
 			<nav className='bg-gray-800 py-6 text-gray-400'>
 				<div className='max-w-[84rem] flex mx-auto items-center px-4'>
-					<Link to='/' className='navbrand text-gray-200 font-mono'>
+					<Link
+						to='/react-recipes/'
+						className='navbrand text-gray-200 font-mono'
+					>
 						React Recipes
 					</Link>
 
 					<ul className='nav-items flex flex-shrink ml-auto gap-8'>
 						<li>
-							<NavLink to='/Redux'>Redux</NavLink>
+							<NavLink to='/react-recipes/Redux'>Redux</NavLink>
 						</li>
 						<li>
-							<NavLink to='/context'>Context</NavLink>
+							<NavLink to='/react-recipes/context'>Context</NavLink>
 						</li>
 						<li>
-							<NavLink to='/suspense'>Suspense</NavLink>
+							<NavLink to='/react-recipes/suspense'>Suspense</NavLink>
 						</li>
 						<li>
-							<NavLink to='/performance'>Performance</NavLink>
+							<NavLink to='/react-recipes/performance'>Performance</NavLink>
 						</li>
 						<li>
-							<NavLink to='/Testing'>Testing</NavLink>
+							<NavLink to='/react-recipes/Testing'>Testing</NavLink>
 						</li>
 					</ul>
 				</div>
