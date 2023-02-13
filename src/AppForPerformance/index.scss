@@ -1,0 +1,12 @@
+.AppForPerformance {
+	h2 {
+		@apply text-2xl font-medium mb-6;
+	}
+	p {
+		@apply text-4xl mb-6;
+	}
+
+	button {
+		@apply block rounded bg-gray-300 text-black px-6 active:bg-gray-500;
+	}
+}
